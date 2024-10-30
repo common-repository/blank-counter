@@ -1,0 +1,71 @@
+/* 
+    Document   : admin
+    Created on : 30.jun.2012, 11:16:17
+    Author     : Dan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+            display: block;
+}
+
+.link-item {
+            padding:2px;
+            width:100%;
+            clear:both;
+            display:inline-block;
+}
+
+.link-url {
+            float:left;
+            font-size: 12px;
+            max-width:95%;
+}
+
+.link-count {
+            width:40px;
+            float:right;
+            font-weight: bold;
+}
+
+.even {
+            background-color:#eee;
+}
+
+.post_pahe_header {
+            border-bottom:1px solid black;
+}
+
+.no-statistics {
+border: 1px solid #EEE;
+padding: 3px;
+color: #888;
+}
+
+.ui-widget-content {
+            background: none !important;
+}
+
+.bc-setting {
+            width:100%;
+            display:inline-block;
+            clear:both;
+}
+
+.bc-settings-name {
+            float:left;
+            max-width: 90%;
+}
+
+.bc-settings-form {
+            float:right;
+}
+
+.bc-form-action-performed {
+            padding:3px;
+            border:1px solid orange;
+            color:black;
+            background-color:#eee;
+            margin-bottom:5px;
+}
